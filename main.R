@@ -61,7 +61,7 @@ is_between <- function(x, a, b) {
 #' rm_na(x)
 #' [1] 1 2 3
 rm_na <- function(x) {
-    return(NULL)
+    return(na.rm(x))
 }
 
 #' Calculate the median of each row of a matrix
