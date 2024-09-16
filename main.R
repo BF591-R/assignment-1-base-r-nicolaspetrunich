@@ -80,7 +80,7 @@ rm_na <- function(x) {
 #' [1] 1 4 7
 #' 
 row_medians <- function(x) {
-    return(NULL)
+    return(apply(x, 1, median))
 }
 
 #' Evaluate each row of a matrix with a provided function
